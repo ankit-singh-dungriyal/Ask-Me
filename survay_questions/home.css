@@ -1,0 +1,149 @@
+/*<section>*/   
+    section{
+        padding:10px;
+          background-image:url(hbdy2.png) ;
+          background-position: center ;
+          background-repeat: no-repeat;
+          font-size: 25px;
+          color:#ccffff;
+        }
+        h4 a{
+           
+           background-color: tomato;
+           text-decoration: none;
+           padding: 10px 10px;
+           border-radius: 8px;
+           
+        }       
+        .text{
+            font-size: 30px;
+            font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;          
+        }
+        
+  /*</section>*/  
+
+  body{
+     font-size:100%;
+     text-align: center;
+     line-height:2;
+     background-image: url(special/background.jpg);
+     color:brown;
+    }
+    
+    .background_video{
+        z-index: -1;
+        position: fixed;
+        height: 500px;
+        width: 500px;
+       
+    }
+
+    
+    img{
+        opacity: 1;
+    }
+    
+ /*<header>*/   
+    .header{
+        background-attachment: fixed;
+        font-family: "Brush Script MT", cursive;
+        font-size:35px;
+        padding:10px;
+        color:#990099;
+       
+        } 
+   .sticky { 
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+        
+     span{
+         float:left;
+         color:#666666;
+         background-color:#ffff99;
+         padding: 6px;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: cadetblue;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+    background-color: #009999;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 20px;}
+}
+/*</header>*/
+
+     
+ 
+  
+  /*<contact>*/
+  
+
+
+
+
+.contact{
+    align-content: flex-start;
+    color:white;
+    padding: 5px;
+    background-color: #0ea1d1;
+    
+    
+}
+
+.contact a{
+    color:#ededef;
+    text-decoration: none;
+}
+
+.contactinfo{
+    list-style-type: none;
+    
+}
+.contactinfo li{
+    vertical-align: middle;
+    display: inline-block;
+    padding: 1.2em;
+   
+}
+
+.bottom{
+    font-size: 10px;
+    font-family: sans-serif;    
+}
+
+        
+
